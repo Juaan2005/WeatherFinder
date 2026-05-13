@@ -1,50 +1,21 @@
-# Welcome to your Expo app 👋
+💰 Project UTS: DompetKu ⚡
+📸 Preview
+![App Preview](./Hasil8.jpeg)
+🛠️ Logic yang Diterapkan
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi ini menggunakan useState untuk mengelola data transaksi keuangan, termasuk penyimpanan deskripsi dan nominal. Pengguna dapat menambahkan transaksi pemasukan maupun pengeluaran melalui input yang telah disediakan. Setiap transaksi akan langsung memperbarui total saldo secara otomatis.
 
-## Get started
+Selain itu, aplikasi juga menggunakan FlatList untuk menampilkan daftar riwayat transaksi secara efisien. Sistem juga menerapkan conditional styling, di mana pemasukan ditampilkan dengan warna hijau dan pengeluaran dengan warna merah agar lebih mudah dibedakan.
 
-1. Install dependencies
+💡 Fitur Utama
 
-   ```bash
-   npm install
-   ```
+Aplikasi ini memiliki fitur utama berupa tampilan saldo total yang dimulai dari Rp 0, penambahan transaksi baru, serta riwayat transaksi yang ditampilkan secara berurutan. Setiap perubahan data akan langsung diperbarui secara real-time pada tampilan aplikasi.
 
-2. Start the app
+🧾 Struktur Data
 
-   ```bash
-   npx expo start
-   ```
+Data transaksi disimpan dalam bentuk array objek yang berisi id, keterangan transaksi, nominal, dan tipe transaksi (masuk atau keluar). Struktur ini digunakan untuk mempermudah proses perhitungan saldo dan penampilan data di daftar riwayat.
 
-In the output, you'll find options to open the app in a
+🔗 Demo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Aplikasi dapat dijalankan melalui Expo Snack pada link berikut:
+https://snack.expo.dev/
