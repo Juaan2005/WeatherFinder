@@ -36,4 +36,8 @@ Aplikasi pelacak cuaca mobile berbasis React Native yang dibangun menggunakan **
 1. **Clone repositori ini:**
 ```bash
    git clone https://github.com/Juaan2005/WeatherFinder
+<<<<<<< HEAD
    cd weather-finder
+=======
+   cd weather-finder
+>>>>>>> 07c1f97ffd978f55a6cb3f70ee12d9613bfa34ca
